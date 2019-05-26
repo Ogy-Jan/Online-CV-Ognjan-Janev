@@ -9,5 +9,24 @@
 .platformDropdown {
   width:100%;
   position: absolute;
-  left: 100%; 
+  left: 100%;
 };
+/* All Devices Except Phones */
+@media only screen and (max-width: 600px) {
+  .turnOffMobile {
+    display: none;
+    visibility: hidden;
+  }
+}
+/* Only Phones */
+@media only screen and (max-width: 600px) {
+  .listWidthMobile {
+    width: 100%;
+  }
+}
+/* All Devices Except Phones */
+@media only screen and (min-width: 600px) {
+  .listWidthRest {
+    width: 50%;
+  }
+}
