@@ -1,0 +1,13 @@
+.platformList {
+  padding-left: 0;
+  padding-right: 0;
+};
+.platformListItem {
+  position: relative;
+  display: block;
+};
+.platformDropdown {
+  width:100%;
+  position: absolute;
+  left: 100%; 
+};
