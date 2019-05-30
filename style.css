@@ -1,7 +1,8 @@
 
 /* Small Devices */
-@media only screen and (max-width: 992px) {
-  .turnOffSmallDisplay  {
-    display: none;
+@media only screen and (max-width: 1200px) {
+  .noPC  {
+    display: block;
+    width: 100%
   }
 }
